@@ -338,14 +338,14 @@
 }
 
 .first-section-first-div {
-  width: 50%; /* Adjust width to match the second section */
+  width: 60%; /* Adjust width to match the second section */
   padding: 20px;
   box-sizing: border-box;
   margin-left: 0px; /* Ensure left margin is not affecting the flexbox layout */
 }
 
 .sliders-component {
-  width: 50%; /* Match the width of the first section */
+  width: 40%; /* Match the width of the first section */
   padding: 20px;
   box-sizing: border-box;
   text-align: center; /* Adjust for center alignment */
@@ -415,7 +415,7 @@
 
   .first-section-second-div img {
     height: auto;
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 
@@ -456,7 +456,7 @@
 
   .first-section-second-div img {
     height: auto;
-    width: 100%;
+    width: 40%;
   }
 }
 
@@ -468,7 +468,7 @@
 
   .sliders-component,
   .first-section-first-div {
-    width: 100%; /* Full width for both sections */
+    width: 60%; /* Full width for both sections */
     padding: 20px;
   }
 

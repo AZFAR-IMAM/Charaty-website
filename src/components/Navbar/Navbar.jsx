@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Donate from "../Images/Donate.png";
-import { BiSearch } from "react-icons/bi";
+// import { BiSearch } from "react-icons/bi";
 import "../Navbar/Navbar.css";
 import ScrollToTop from "./scrollToTop";
 import HamMenu from "./HamMenu";
@@ -36,33 +36,32 @@ function Navbar() {
             </button>
             <div class="dropdown-content">
               <ul className="dropdown-content-navbar">
-                <li className="hover-underline-animation">Home Charity</li>
-                <li className="hover-underline-animation">Home Education</li>
-                <li className="hover-underline-animation">Home Wildlife</li>
+                <li className="hover-underline-animation">Charity</li><br/>
+                <li className="hover-underline-animation">Education Charity</li>
+                <li className="hover-underline-animation">Wildlife Charity</li>
+                
                 <li className="hover-underline-animation">
-                  Home Ocean Polution
-                </li>
-                <li className="hover-underline-animation">
-                  Home World Pandemic
+                  World Pandemic
                 </li>
               </ul>
             </div>
           </div>
           <button>
-            <Link to="home">About</Link>
+            <Link to="about">About</Link>
           </button>
           <button>
-            <Link to="home">Contact</Link>
+            <Link to="contact">Contact</Link>
           </button>
         </div>
         <div className="right-buttons">
           <button id="donate-btn">
-            <Link to="contact">Donate Now</Link>
+            <Link to="/DonationForm">Donate Now</Link>
           </button>
           <button id="search-nav">
-            <Link to="contact">
+            {/* <Link to="contact">
               <BiSearch />
-            </Link>
+            </Link> */}
+            <Link to="signin">Signin</Link>
           </button>
         </div>
       </div>

@@ -17,7 +17,7 @@ const thirdSectionContact = () => {
             <form action="#" method="#">
               <input
                 type="text"
-                name="Name"
+                name="FirstName"
                 id="name-field"
                 placeholder="Name"
               />
@@ -35,10 +35,10 @@ const thirdSectionContact = () => {
               />
               <select name="subject" id="select-field">
                 <option value="Subject ">Subject</option>
-                <option value="Subject 1 ">Subject 1</option>
-                <option value="Subject 2">Subject 2</option>
-                <option value="Subject 3">Subject 3</option>
-                <option value="Subject 4">Subject 4</option>
+                <option value="Subject 1 ">Doner</option>
+                <option value="Subject 2">Volunteer</option>
+                <option value="Subject 3">NGO</option>
+                <option value="Subject 4">Needy</option>
               </select>
               <textarea placeholder="Message" />
               <button type="submit" id="submit-btn">
